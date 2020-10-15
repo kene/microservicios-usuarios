@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>mx.com.kene.microservicios.app.usuarios</groupId>
-	<artifactId>microservicios-usuarios-1</artifactId>
+	<artifactId>microservicios-usuarios</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>microservicios-usuarios-1</name>
+	<name>microservicios-usuarios</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -20,6 +20,11 @@
 	</properties>
 
 	<dependencies>
+		<dependency>
+			<groupId>mx.com.kene.microservicios.commons</groupId>
+			<artifactId>commons-microservicios</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
